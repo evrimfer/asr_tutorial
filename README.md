@@ -78,7 +78,7 @@ cd ..       # go back under asr folder
 7. Download _paml_asr.py_ . This python script is going to be used to infer insertions-deletions in ancestral sequences. 
 
 ```
-wget https://github.com/evrimfer/....
+wget https://github.com/evrimfer/asr_tutorial/blob/39830372a7c6c89713ef944f1fe4aeb38551ef62/paml_asr.py
 pwd     # look at the current path you are in and copy it
 # the path look like similar to this
 /User/name/desktop/asr
@@ -142,7 +142,7 @@ mafft  --auto --inputorder rbsc_aa.fasta > rbsc_aa_aligned.fasta
 <details>
 <summary> Alignment </summary>
 
-![Semantic description of image](/Users/fer/Desktop/asr_tutorial/alignment.png "Image Title")
+![Semantic description of image](alignment.png "Image Title")
 
 </details>
 
@@ -190,7 +190,7 @@ The tree is unrooted. We can root the tree by selecting the branch including Gro
 <details>
 <summary> Tree </summary>
 
-![Semantic description of image](/Users/fer/Desktop/asr_tutorial/rbsc_tree.png "Image Title")
+![Semantic description of image](https://github.com/evrimfer/asr_tutorial/blob/39830372a7c6c89713ef944f1fe4aeb38551ef62/alignment.png "Image Title")
 
 </details>
 >Are the rubisco sequences monophyletic based on groups?
