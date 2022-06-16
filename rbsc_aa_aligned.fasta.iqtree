@@ -1,0 +1,363 @@
+IQ-TREE 2.0.3 built Dec 19 2020
+
+Input file name: rbsc_aa_aligned.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 789475
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 51 sequences with 250 amino-acid sites
+Number of constant sites: 23 (= 9.2% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 23 (= 9.2% of all sites)
+Number of parsimony informative sites: 168
+Number of distinct site patterns: 247
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+I+G4           -8774.708   17751.415 +    0.851   17890.631 +    0.696   18107.083 +    0.709
+LG+G4             -8778.364   17756.729 +   0.0597   17892.299 +    0.302   18108.875 +    0.289
+LG+R3             -8775.402   17756.805 +   0.0575   17903.544 -  0.00109   18119.515 -  0.00142
+LG+R4             -8773.987   17757.975 -    0.032   17912.558 - 1.21e-05   18127.728 - 2.33e-05
+LG+R2             -8810.655   17823.311 - 2.08e-16   17962.527 -  1.7e-16   18178.978 - 1.73e-16
+LG+F+I+G4         -8765.119   17770.238 - 6.96e-05   17995.354 - 1.27e-23   18192.813 - 1.72e-19
+LG+F+G4           -8768.259   17774.518 - 8.19e-06   17994.210 - 2.24e-23   18193.572 - 1.17e-19
+WAG+I+G4          -8819.786   17841.572 - 2.25e-20   17980.789 - 1.84e-20   18197.240 - 1.88e-20
+WAG+G4            -8825.417   17850.834 - 2.19e-22   17986.404 - 1.11e-21   18202.980 - 1.06e-21
+VT+I+G4           -8843.374   17888.749 - 1.28e-30   18027.965 - 1.05e-30   18244.416 - 1.07e-30
+VT+G4             -8848.778   17897.556 - 1.57e-32   18033.127 - 7.95e-32   18249.702 - 7.61e-32
+Blosum62+I+G4     -8872.342   17946.684 - 3.37e-43   18085.901 - 2.76e-43   18302.352 - 2.81e-43
+PMB+I+G4          -8873.298   17948.597 -  1.3e-43   18087.813 - 1.06e-43   18304.264 - 1.08e-43
+Blosum62+G4       -8877.369   17954.739 - 6.01e-45   18090.309 - 3.04e-44   18306.885 - 2.91e-44
+PMB+G4            -8878.819   17957.637 - 1.41e-45   18093.208 - 7.14e-45   18309.783 - 6.84e-45
+WAG+F+I+G4        -8828.845   17897.691 - 1.47e-32   18122.807 - 2.67e-51   18320.266 - 3.62e-47
+WAG+F+G4          -8833.713   17905.427 - 3.07e-34   18125.119 - 8.41e-52   18324.480 -  4.4e-48
+VT+F+I+G4         -8843.945   17927.890 - 4.06e-39   18153.006 - 7.39e-58   18350.465 -    1e-53
+VT+F+G4           -8848.834   17935.667 - 8.32e-41   18155.360 - 2.28e-58   18354.721 - 1.19e-54
+JTTDCMut+I+G4     -8902.861   18007.722 - 1.88e-56   18146.939 - 1.54e-56   18363.390 - 1.56e-56
+JTTDCMut+G4       -8907.966   18015.931 -  3.1e-58   18151.502 - 1.57e-57   18368.078 -  1.5e-57
+JTT+I+G4          -8905.922   18013.845 - 8.79e-58   18153.061 - 7.19e-58   18369.512 - 7.33e-58
+JTT+G4            -8911.102   18022.204 - 1.35e-59   18157.774 - 6.82e-59   18374.350 - 6.52e-59
+Blosum62+F+I+G4   -8875.699   17991.399 - 6.58e-53   18216.515 -  1.2e-71   18413.974 - 1.62e-67
+Blosum62+F+G4     -8880.443   17998.887 - 1.56e-54   18218.579 - 4.26e-72   18417.941 - 2.23e-68
+PMB+F+I+G4        -8890.180   18020.360 - 3.38e-59   18245.477 - 6.15e-78   18442.936 - 8.34e-74
+PMB+F+G4          -8895.395   18028.790 -    5e-61   18248.483 - 1.37e-78   18447.844 - 7.17e-75
+LG+I              -8953.775   18107.549 - 3.95e-78   18243.120 -    2e-77   18459.696 - 1.91e-77
+JTTDCMut+F+I+G4   -8904.533   18049.065 - 1.98e-65   18274.182 -  3.6e-84   18471.641 - 4.87e-80
+JTTDCMut+F+G4     -8909.069   18056.137 - 5.76e-67   18275.830 - 1.58e-84   18475.191 - 8.26e-81
+JTT+F+I+G4        -8907.280   18054.560 - 1.27e-66   18279.676 - 2.31e-85   18477.135 - 3.13e-81
+JTT+F+G4          -8911.849   18061.697 - 3.57e-68   18281.390 - 9.79e-86   18480.751 - 5.12e-82
+DCMut+I+G4        -8967.421   18136.842 - 1.72e-84   18276.058 - 1.41e-84   18492.509 - 1.43e-84
+Dayhoff+I+G4      -8967.619   18137.238 - 1.41e-84   18276.455 - 1.15e-84   18492.906 - 1.18e-84
+DCMut+G4          -8974.991   18149.983 - 2.41e-87   18285.553 - 1.22e-86   18502.129 - 1.17e-86
+Dayhoff+G4        -8975.182   18150.364 - 1.99e-87   18285.934 - 1.01e-86   18502.510 - 9.65e-87
+LG                -8983.299   18164.598 - 1.62e-90   18296.598 - 4.88e-89   18513.222 - 4.56e-89
+DCMut+F+I+G4      -8955.277   18150.553 - 1.81e-87   18375.670 - 3.3e-106   18573.129 - 4.47e-102
+Dayhoff+F+I+G4    -8955.619   18151.237 - 1.29e-87   18376.354 - 2.34e-106   18573.813 - 3.17e-102
+DCMut+F+G4        -8961.932   18161.863 - 6.34e-90   18381.556 - 1.74e-107   18580.917 - 9.1e-104
+Dayhoff+F+G4      -8962.273   18162.545 - 4.51e-90   18382.238 - 1.24e-107   18581.599 - 6.47e-104
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+I+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0148
+Gamma shape alpha: 1.7967
+
+ Category  Relative_rate  Proportion
+  0         0              0.0148
+  1         0.2718         0.2463
+  2         0.6410         0.2463
+  3         1.0800         0.2463
+  4         2.0674         0.2463
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -8773.5115 (s.e. 450.6670)
+Unconstrained log-likelihood (without tree): -1376.2063
+Number of free parameters (#branches + #model parameters): 101
+Akaike information criterion (AIC) score: 17749.0230
+Corrected Akaike information criterion (AICc) score: 17888.2392
+Bayesian information criterion (BIC) score: 18104.6905
+
+Total tree length (sum of branch lengths): 22.2378
+Sum of internal branch lengths: 7.8637 (35.3618% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'A1_Allochromatium_GammaP' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++----------------------------------------------------------A1_Allochromatium_GammaP
+|
+|                                               +--A1_Thiomicrospira_GammaP_HydrothermalSulfurOx
+|                                           +---| (98.7/100)
+|                                           |   +--AII_Hydrogenovibr_GammaP_HydrogenOxidizing
+|                                        +--| (74.8/49)
+|                                        |  +---A_Alkalilimnicola_GammaP
+|                               +--------| (97.3/95)
+|                               |        |              +--A_Acidithiobacillus_GammaP
+|                               |        |           +--| (90.8/95)
+|                               |        |           |  |     +--A_Cupriavidus_BetaP
+|                               |        |           |  |  +--| (43.7/93)
+|                               |        |           |  |  |  +--AII_Thiobacillus_BetaP
+|                               |        |           |  +--| (86.5/98)
+|                               |        |           |     +--A_Nitrosomonas_BetaP
+|                               |        |        +--| (14.8/31)
+|                               |        |        |  +--A_Methylococcus_GammaP_Methanotrophic
+|                               |        |     +--| (87.5/80)
+|                               |        |     |  +----A_Halorhodospira_GammaP
+|                               |        |  +--| (76.5/70)
+|                               |        |  |  +-------A_Hydrogenophilus_BetaP_Thermophillic
+|                               |        +--| (80.8/49)
+|                               |           +-------AII_Rhodobacter_AlphaP
+|                           +---| (29.6/57)
+|                           |   |          +--A_Prochlorococcus_Cyanob
+|                           |   +----------| (98.9/100)
+|                           |              +--A_Synechococcus_Cyanob
+|                       +---| (87.9/82)
+|                       |   +---------------A2_Allochromatium_GammaP
+|        +--------------| (97.9/82)
+|        |              +---A2_Thiomicrospira_GammaP_HydrothermalSulfurOx
++--------| (74.5/74)
+|        |                                       +**B_Anabaena_Cyanob
+|        |                                  +----| (97.6/100)
+|        |                                  |    +--B_Nostoc_Cyanob
+|        |                               +--| (76.2/80)
+|        |                               |  +------B_Gloeobacter_Cyanob
+|        |                            +--| (3.6/57)
+|        |                            |  |  +---B_Synechocystis_Cyanob
+|        |                            |  +--| (47.4/75)
+|        |                            |     +--------B_Trichodesmium_Cyanob
+|        |                         +--| (88.2/90)
+|        |                         |  +--B_Prochlorothrix_Cyano
+|        |            +------------| (99.8/100)
+|        |            |            |  +-------B_Synechococcus_Cyanob
+|        |            |            +--| (36.7/73)
+|        |            |               +----B_Thermosynechococcus_Cyanob
+|        |        +---| (87/78)
+|        |        |   |     +----------B_Marchantia_Plant
+|        |        |   |  +--| (83.3/95)
+|        |        |   |  |  |          +---B_Nicotiana_Planttabacco
+|        |        |   |  |  |  +-------| (100/100)
+|        |        |   |  |  |  |       +---B_Spinacia_Plant
+|        |        |   |  |  +--| (0/60)
+|        |        |   |  |     +----------B_Selaginella_PlantFern
+|        |        |   +--| (83.9/93)
+|        |        |      +--------B_Physcomitrella_PlantMoss
+|        |     +--| (70.2/69)
+|        |     |  |         +-----B_Chlamydomonas_Alga
+|        |     |  |      +--| (22.4/76)
+|        |     |  |      |  +--------------------------B_Chlorellaalga
+|        |     |  +------| (94.9/96)
+|        |     |         +------------B_Euglena_Protist
+|        +-----| (86.4/86)
+|              +-------------B_Ostreococcus_alga
+|
+|                          +--A_Nitrobacter_AlphaP
+|                       +--| (95.1/100)
+|                       |  +--CD_Nitrobacter_AlphaP
+|                    +--| (88.7/96)
+|                    |  |  +--ACDII_Rhodopse_AlphaP_purple_Nonsulfur
+|                    |  +--| (17.6/75)
+|                    |     +-------CD_Acidiphilium_AlphaP
+|                 +--| (78.8/92)
+|                 |  |  +--CD_Paracoccus_AlphaP
+|                 |  +--| (86.6/93)
+|                 |     |  +--CD_Rhodobacter_AlphaP
+|                 |     +--| (47.7/93)
+|                 |        +---CD_Sinorhizobium_AlphaP
+|              +--| (1.4/65)
+|              |  +----------CD_Burkholderia_BetaP
+|           +--| (74.2/84)
+|           |  |            +--CD_Cylindrotheca_alga
+|           |  |        +---| (99.6/100)
+|           |  |        |   +--CD_Odontella_alga
+|           |  |     +--| (96.2/99)
+|           |  |     |  |  +--CD_Ectocarpus_algabrown
+|           |  |     |  +--| (51.9/90)
+|           |  |     |     +--------CD_Olisthodiscus_alga
+|           |  |  +--| (61.2/88)
+|           |  |  |  +--CD_Porphyridium_alga
+|           |  +--| (98/98)
+|           |     |   +--CD_Emiliania_Diatom_PhytoplanktonEu
+|           |     +---| (97.1/100)
+|           |         +--CD_Pleurochrysis_alga
++-----------| (91.8/95)
+            |     +--CD_Nitrosococcus_GammaP
+            |  +--| (88.3/96)
+            |  |  +--CD_Nitrosospira_BetaP
+            +--| (86.5/98)
+               +----CD_Rubrivivax_BetaP
+
+Tree in newick format:
+
+(A1_Allochromatium_GammaP:2.4944151829,(((((((A1_Thiomicrospira_GammaP_HydrothermalSulfurOx:0.0879410873,AII_Hydrogenovibr_GammaP_HydrogenOxidizing:0.0204562075)98.7/100:0.1893538164,A_Alkalilimnicola_GammaP:0.1910966509)74.8/49:0.0403401795,(((((A_Acidithiobacillus_GammaP:0.1598993472,((A_Cupriavidus_BetaP:0.1198463686,AII_Thiobacillus_BetaP:0.0469930600)43.7/93:0.0528786390,A_Nitrosomonas_BetaP:0.1512510993)86.5/98:0.0645636901)90.8/95:0.0882471904,A_Methylococcus_GammaP_Methanotrophic:0.1125183394)14.8/31:0.0467779549,A_Halorhodospira_GammaP:0.2460580796)87.5/80:0.0683813940,A_Hydrogenophilus_BetaP_Thermophillic:0.3655014058)76.5/70:0.0631487018,AII_Rhodobacter_AlphaP:0.3393308981)80.8/49:0.0683967782)97.3/95:0.3799141997,(A_Prochlorococcus_Cyanob:0.0387722311,A_Synechococcus_Cyanob:0.0893652706)98.9/100:0.4874861650)29.6/57:0.1875884369,A2_Allochromatium_GammaP:0.6718103979)87.9/82:0.1959066836,A2_Thiomicrospira_GammaP_HydrothermalSulfurOx:0.1905138741)97.9/82:0.6589976790,((((((((B_Anabaena_Cyanob:0.0000029470,B_Nostoc_Cyanob:0.0569430710)97.6/100:0.2276331966,B_Gloeobacter_Cyanob:0.2972419363)76.2/80:0.1175656412,(B_Synechocystis_Cyanob:0.1897171849,B_Trichodesmium_Cyanob:0.3954460414)47.4/75:0.1479719936)3.6/57:0.0789421173,B_Prochlorothrix_Cyano:0.1500347294)88.2/90:0.0957153511,(B_Synechococcus_Cyanob:0.3530685965,B_Thermosynechococcus_Cyanob:0.2234656802)36.7/73:0.0230205480)99.8/100:0.5598689243,((B_Marchantia_Plant:0.4670284839,((B_Nicotiana_Planttabacco:0.1839716149,B_Spinacia_Plant:0.1892735496)100/100:0.3541007581,B_Selaginella_PlantFern:0.4635706363)0/60:0.0166739675)83.3/95:0.0648785466,B_Physcomitrella_PlantMoss:0.4119413107)83.9/93:0.1251619567)87/78:0.1939907043,((B_Chlamydomonas_Alga:0.2758739932,B_Chlorellaalga:1.1473314488)22.4/76:0.0493227074,B_Euglena_Protist:0.5475825975)94.9/96:0.2953273970)70.2/69:0.1359567156,B_Ostreococcus_alga:0.5984419434)86.4/86:0.2693592678)74.5/74:0.4048140960,((((((A_Nitrobacter_AlphaP:0.0236229345,CD_Nitrobacter_AlphaP:0.1014900871)95.1/100:0.1096577653,(ACDII_Rhodopse_AlphaP_purple_Nonsulfur:0.0900526480,CD_Acidiphilium_AlphaP:0.3382884128)17.6/75:0.0578898061)88.7/96:0.0895969128,(CD_Paracoccus_AlphaP:0.1631071837,(CD_Rhodobacter_AlphaP:0.1646458284,CD_Sinorhizobium_AlphaP:0.2008467570)47.7/93:0.0849941579)86.6/93:0.1598919572)78.8/92:0.0729590083,CD_Burkholderia_BetaP:0.4786305738)1.4/65:0.0417617939,((((CD_Cylindrotheca_alga:0.0557110261,CD_Odontella_alga:0.1289822561)99.6/100:0.1887216427,(CD_Ectocarpus_algabrown:0.1361497612,CD_Olisthodiscus_alga:0.3928159602)51.9/90:0.0324986252)96.2/99:0.1364454277,CD_Porphyridium_alga:0.1337690459)61.2/88:0.0832210557,(CD_Emiliania_Diatom_PhytoplanktonEu:0.1045795943,CD_Pleurochrysis_alga:0.1164712999)97.1/100:0.1688286173)98/98:0.1517993945)74.2/84:0.0483994314,((CD_Nitrosococcus_GammaP:0.1177800028,CD_Nitrosospira_BetaP:0.1126649179)88.3/96:0.0956880894,CD_Rubrivivax_BetaP:0.2378149408)86.5/98:0.0792362814)91.8/95:0.5098141453);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -8773.547281
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----------------------------------------------------------A1_Allochromatium_GammaP
+|
+|                                               +--A1_Thiomicrospira_GammaP_HydrothermalSulfurOx
+|                                           +---| (100)
+|                                           |   +--AII_Hydrogenovibr_GammaP_HydrogenOxidizing
+|                                        +--| (49)
+|                                        |  +---A_Alkalilimnicola_GammaP
+|                               +--------| (95)
+|                               |        |           +--A_Acidithiobacillus_GammaP
+|                               |        |        +--| (95)
+|                               |        |        |  |     +--A_Cupriavidus_BetaP
+|                               |        |        |  |  +--| (93)
+|                               |        |        |  |  |  +--AII_Thiobacillus_BetaP
+|                               |        |        |  +--| (98)
+|                               |        |        |     +--A_Nitrosomonas_BetaP
+|                               |        |     +--| (80)
+|                               |        |     |  |  +-----A_Halorhodospira_GammaP
+|                               |        |     |  +--| (51)
+|                               |        |     |     +--A_Methylococcus_GammaP_Methanotrophic
+|                               |        |  +--| (70)
+|                               |        |  |  +--------A_Hydrogenophilus_BetaP_Thermophillic
+|                               |        +--| (49)
+|                               |           +-------AII_Rhodobacter_AlphaP
+|                           +---| (57)
+|                           |   |          +--A_Prochlorococcus_Cyanob
+|                           |   +----------| (100)
+|                           |              +--A_Synechococcus_Cyanob
+|                       +---| (82)
+|                       |   +---------------A2_Allochromatium_GammaP
+|        +--------------| (82)
+|        |              +---A2_Thiomicrospira_GammaP_HydrothermalSulfurOx
++--------| (74)
+|        |                                       +--B_Anabaena_Cyanob
+|        |                                  +----| (100)
+|        |                                  |    +--B_Nostoc_Cyanob
+|        |                               +--| (80)
+|        |                               |  +------B_Gloeobacter_Cyanob
+|        |                            +--| (57)
+|        |                            |  |  +---B_Synechocystis_Cyanob
+|        |                            |  +--| (75)
+|        |                            |     +--------B_Trichodesmium_Cyanob
+|        |                         +--| (90)
+|        |                         |  +--B_Prochlorothrix_Cyano
+|        |            +------------| (100)
+|        |            |            |  +-------B_Synechococcus_Cyanob
+|        |            |            +--| (73)
+|        |            |               +----B_Thermosynechococcus_Cyanob
+|        |        +---| (78)
+|        |        |   |     +----------B_Marchantia_Plant
+|        |        |   |  +--| (95)
+|        |        |   |  |  |          +---B_Nicotiana_Planttabacco
+|        |        |   |  |  |  +-------| (100)
+|        |        |   |  |  |  |       +---B_Spinacia_Plant
+|        |        |   |  |  +--| (60)
+|        |        |   |  |     +----------B_Selaginella_PlantFern
+|        |        |   +--| (93)
+|        |        |      +--------B_Physcomitrella_PlantMoss
+|        |     +--| (69)
+|        |     |  |         +-----B_Chlamydomonas_Alga
+|        |     |  |      +--| (76)
+|        |     |  |      |  +--------------------------B_Chlorellaalga
+|        |     |  +------| (96)
+|        |     |         +------------B_Euglena_Protist
+|        +-----| (86)
+|              +-------------B_Ostreococcus_alga
+|
+|                          +--A_Nitrobacter_AlphaP
+|                       +--| (100)
+|                       |  +--CD_Nitrobacter_AlphaP
+|                    +--| (96)
+|                    |  |  +--ACDII_Rhodopse_AlphaP_purple_Nonsulfur
+|                    |  +--| (75)
+|                    |     +-------CD_Acidiphilium_AlphaP
+|                 +--| (92)
+|                 |  |  +--CD_Paracoccus_AlphaP
+|                 |  +--| (93)
+|                 |     |  +--CD_Rhodobacter_AlphaP
+|                 |     +--| (93)
+|                 |        +---CD_Sinorhizobium_AlphaP
+|              +--| (65)
+|              |  +----------CD_Burkholderia_BetaP
+|           +--| (84)
+|           |  |            +--CD_Cylindrotheca_alga
+|           |  |        +---| (100)
+|           |  |        |   +--CD_Odontella_alga
+|           |  |     +--| (99)
+|           |  |     |  |  +--CD_Ectocarpus_algabrown
+|           |  |     |  +--| (90)
+|           |  |     |     +--------CD_Olisthodiscus_alga
+|           |  |  +--| (88)
+|           |  |  |  +--CD_Porphyridium_alga
+|           |  +--| (98)
+|           |     |   +--CD_Emiliania_Diatom_PhytoplanktonEu
+|           |     +---| (100)
+|           |         +--CD_Pleurochrysis_alga
++-----------| (95)
+            |     +--CD_Nitrosococcus_GammaP
+            |  +--| (96)
+            |  |  +--CD_Nitrosospira_BetaP
+            +--| (98)
+               +----CD_Rubrivivax_BetaP
+
+
+Consensus tree in newick format: 
+
+(A1_Allochromatium_GammaP:2.4922544642,(((((((A1_Thiomicrospira_GammaP_HydrothermalSulfurOx:0.0894252336,AII_Hydrogenovibr_GammaP_HydrogenOxidizing:0.0189272155)100:0.1819821596,A_Alkalilimnicola_GammaP:0.1998917544)49:0.0305864146,((((A_Acidithiobacillus_GammaP:0.1560073326,((A_Cupriavidus_BetaP:0.1121266628,AII_Thiobacillus_BetaP:0.0550241485)93:0.0493065725,A_Nitrosomonas_BetaP:0.1522962749)98:0.0737987088)95:0.0670415620,(A_Halorhodospira_GammaP:0.2652303035,A_Methylococcus_GammaP_Methanotrophic:0.1044218679)51:0.0611429407)80:0.0747842681,A_Hydrogenophilus_BetaP_Thermophillic:0.3814613007)70:0.0386729490,AII_Rhodobacter_AlphaP:0.3366479869)49:0.0794390705)95:0.3927350535,(A_Prochlorococcus_Cyanob:0.0390497866,A_Synechococcus_Cyanob:0.0889855789)100:0.4847881634)57:0.1862902111,A2_Allochromatium_GammaP:0.6696196250)82:0.1965251245,A2_Thiomicrospira_GammaP_HydrothermalSulfurOx:0.1897645140)82:0.6590704389,((((((((B_Anabaena_Cyanob:0.0000024739,B_Nostoc_Cyanob:0.0568659313)100:0.2275030003,B_Gloeobacter_Cyanob:0.2966706460)80:0.1176249861,(B_Synechocystis_Cyanob:0.1893855817,B_Trichodesmium_Cyanob:0.3951264417)75:0.1476482781)57:0.0787212083,B_Prochlorothrix_Cyano:0.1498545128)90:0.0954853288,(B_Synechococcus_Cyanob:0.3526566872,B_Thermosynechococcus_Cyanob:0.2233448380)73:0.0230370762)100:0.5599211719,((B_Marchantia_Plant:0.4672477833,((B_Nicotiana_Planttabacco:0.1838695838,B_Spinacia_Plant:0.1891482080)100:0.3552476253,B_Selaginella_PlantFern:0.4648865782)60:0.0144590884)95:0.0649655800,B_Physcomitrella_PlantMoss:0.4120258675)93:0.1238853816)78:0.1947397382,((B_Chlamydomonas_Alga:0.2752212570,B_Chlorellaalga:1.1466633541)76:0.0498045155,B_Euglena_Protist:0.5469716230)96:0.2953250523)69:0.1357700577,B_Ostreococcus_alga:0.5983935965)86:0.2694398577)74:0.4042660173,((((((A_Nitrobacter_AlphaP:0.0236116577,CD_Nitrobacter_AlphaP:0.1013745313)100:0.1095513282,(ACDII_Rhodopse_AlphaP_purple_Nonsulfur:0.0899411252,CD_Acidiphilium_AlphaP:0.3380520472)75:0.0578430939)96:0.0894193931,(CD_Paracoccus_AlphaP:0.1627591727,(CD_Rhodobacter_AlphaP:0.1645364387,CD_Sinorhizobium_AlphaP:0.2007310667)93:0.0849345693)93:0.1602577995)92:0.0726670354,CD_Burkholderia_BetaP:0.4779327279)65:0.0418853348,((((CD_Cylindrotheca_alga:0.0556765192,CD_Odontella_alga:0.1288742902)100:0.1884364219,(CD_Ectocarpus_algabrown:0.1360493598,CD_Olisthodiscus_alga:0.3928635684)90:0.0324292180)99:0.1366735771,CD_Porphyridium_alga:0.1335080384)88:0.0832947989,(CD_Emiliania_Diatom_PhytoplanktonEu:0.1044559330,CD_Pleurochrysis_alga:0.1164715909)100:0.1687072520)98:0.1514188998)84:0.0477908015,((CD_Nitrosococcus_GammaP:0.1175820357,CD_Nitrosospira_BetaP:0.1125643630)96:0.0955782510,CD_Rubrivivax_BetaP:0.2376128935)98:0.0795122155)95:0.5094010338);
+
+TIME STAMP
+----------
+
+Date and time: Thu Jun 16 00:09:11 2022
+Total CPU time used: 99.46418 seconds (0h:1m:39s)
+Total wall-clock time used: 56.18486595 seconds (0h:0m:56s)
+

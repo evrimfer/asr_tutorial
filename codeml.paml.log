@@ -1,0 +1,349 @@
+
+AAML in paml version 4.9j, February 2020
+
+processing fasta file
+reading seq# 1 A1_Allochromatium_GammaP                               250 sites
+reading seq# 2 A1_Thiomicrospira_GammaP_HydrothermalSulfurOx          250 sites
+reading seq# 3 A2_Allochromatium_GammaP                               250 sites
+reading seq# 4 A2_Thiomicrospira_GammaP_HydrothermalSulfurOx          250 sites
+reading seq# 5 A_Acidithiobacillus_GammaP                             250 sites
+reading seq# 6 A_Alkalilimnicola_GammaP                               250 sites
+reading seq# 7 A_Cupriavidus_BetaP                                    250 sites
+reading seq# 8 A_Halorhodospira_GammaP                                250 sites
+reading seq# 9 A_Hydrogenophilus_BetaP_Thermophillic                  250 sites
+reading seq#10 A_Methylococcus_GammaP_Methanotrophic                  250 sites
+reading seq#11 A_Nitrobacter_AlphaP                                   250 sites
+reading seq#12 A_Nitrosomonas_BetaP                                   250 sites
+reading seq#13 A_Prochlorococcus_Cyanob                               250 sites
+reading seq#14 A_Synechococcus_Cyanob                                 250 sites
+reading seq#15 ACDII_Rhodopse_AlphaP_purple_Nonsulfur                 250 sites
+reading seq#16 AII_Hydrogenovibr_GammaP_HydrogenOxidizing             250 sites
+reading seq#17 AII_Rhodobacter_AlphaP                                 250 sites
+reading seq#18 AII_Thiobacillus_BetaP                                 250 sites
+reading seq#19 B_Anabaena_Cyanob                                      250 sites
+reading seq#20 B_Chlamydomonas_Alga                                   250 sites
+reading seq#21 B_Chlorellaalga                                        250 sites
+reading seq#22 B_Euglena_Protist                                      250 sites
+reading seq#23 B_Gloeobacter_Cyanob                                   250 sites
+reading seq#24 B_Marchantia_Plant                                     250 sites
+reading seq#25 B_Nicotiana_Planttabacco                               250 sites
+reading seq#26 B_Nostoc_Cyanob                                        250 sites
+reading seq#27 B_Ostreococcus_alga                                    250 sites
+reading seq#28 B_Physcomitrella_PlantMoss                             250 sites
+reading seq#29 B_Prochlorothrix_Cyano                                 250 sites
+reading seq#30 B_Selaginella_PlantFern                                250 sites
+reading seq#31 B_Spinacia_Plant                                       250 sites
+reading seq#32 B_Synechococcus_Cyanob                                 250 sites
+reading seq#33 B_Synechocystis_Cyanob                                 250 sites
+reading seq#34 B_Thermosynechococcus_Cyanob                           250 sites
+reading seq#35 B_Trichodesmium_Cyanob                                 250 sites
+reading seq#36 CD_Acidiphilium_AlphaP                                 250 sites
+reading seq#37 CD_Burkholderia_BetaP                                  250 sites
+reading seq#38 CD_Cylindrotheca_alga                                  250 sites
+reading seq#39 CD_Ectocarpus_algabrown                                250 sites
+reading seq#40 CD_Emiliania_Diatom_PhytoplanktonEu                    250 sites
+reading seq#41 CD_Nitrobacter_AlphaP                                  250 sites
+reading seq#42 CD_Nitrosococcus_GammaP                                250 sites
+reading seq#43 CD_Nitrosospira_BetaP                                  250 sites
+reading seq#44 CD_Odontella_alga                                      250 sites
+reading seq#45 CD_Olisthodiscus_alga                                  250 sites
+reading seq#46 CD_Paracoccus_AlphaP                                   250 sites
+reading seq#47 CD_Pleurochrysis_alga                                  250 sites
+reading seq#48 CD_Porphyridium_alga                                   250 sites
+reading seq#49 CD_Rhodobacter_AlphaP                                  250 sites
+reading seq#50 CD_Rubrivivax_BetaP                                    250 sites
+reading seq#51 CD_Sinorhizobium_AlphaP                                250 sitesns = 51  	ls = 250
+Reading sequences, sequential format..
+Reading seq # 1: A1_Allochromatium_GammaP       Reading seq # 2: A1_Thiomicrospira_GammaP_HydrothermalSulfurOx       Reading seq # 3: A2_Allochromatium_GammaP       Reading seq # 4: A2_Thiomicrospira_GammaP_HydrothermalSulfurOx       Reading seq # 5: A_Acidithiobacillus_GammaP       Reading seq # 6: A_Alkalilimnicola_GammaP       Reading seq # 7: A_Cupriavidus_BetaP       Reading seq # 8: A_Halorhodospira_GammaP       Reading seq # 9: A_Hydrogenophilus_BetaP_Thermophillic       Reading seq #10: A_Methylococcus_GammaP_Methanotrophic       Reading seq #11: A_Nitrobacter_AlphaP       Reading seq #12: A_Nitrosomonas_BetaP       Reading seq #13: A_Prochlorococcus_Cyanob       Reading seq #14: A_Synechococcus_Cyanob       Reading seq #15: ACDII_Rhodopse_AlphaP_purple_Nonsulfur       Reading seq #16: AII_Hydrogenovibr_GammaP_HydrogenOxidizing       Reading seq #17: AII_Rhodobacter_AlphaP       Reading seq #18: AII_Thiobacillus_BetaP       Reading seq #19: B_Anabaena_Cyanob       Reading seq #20: B_Chlamydomonas_Alga       Reading seq #21: B_Chlorellaalga       Reading seq #22: B_Euglena_Protist       Reading seq #23: B_Gloeobacter_Cyanob       Reading seq #24: B_Marchantia_Plant       Reading seq #25: B_Nicotiana_Planttabacco       Reading seq #26: B_Nostoc_Cyanob       Reading seq #27: B_Ostreococcus_alga       Reading seq #28: B_Physcomitrella_PlantMoss       Reading seq #29: B_Prochlorothrix_Cyano       Reading seq #30: B_Selaginella_PlantFern       Reading seq #31: B_Spinacia_Plant       Reading seq #32: B_Synechococcus_Cyanob       Reading seq #33: B_Synechocystis_Cyanob       Reading seq #34: B_Thermosynechococcus_Cyanob       Reading seq #35: B_Trichodesmium_Cyanob       Reading seq #36: CD_Acidiphilium_AlphaP       Reading seq #37: CD_Burkholderia_BetaP       Reading seq #38: CD_Cylindrotheca_alga       Reading seq #39: CD_Ectocarpus_algabrown       Reading seq #40: CD_Emiliania_Diatom_PhytoplanktonEu       Reading seq #41: CD_Nitrobacter_AlphaP       Reading seq #42: CD_Nitrosococcus_GammaP       Reading seq #43: CD_Nitrosospira_BetaP       Reading seq #44: CD_Odontella_alga       Reading seq #45: CD_Olisthodiscus_alga       Reading seq #46: CD_Paracoccus_AlphaP       Reading seq #47: CD_Pleurochrysis_alga       Reading seq #48: CD_Porphyridium_alga       Reading seq #49: CD_Rhodobacter_AlphaP       Reading seq #50: CD_Rubrivivax_BetaP       Reading seq #51: CD_Sinorhizobium_AlphaP       
+Sequences read..
+Counting site patterns..  0:00
+Compressing,    247 patterns at    250 /    250 sites (100.0%),  0:00
+Collecting fpatt[] & pose[],    247 patterns at    250 /    250 sites (100.0%),  0:00
+Counting frequencies..
+
+    10200 bytes for distance
+    79040 bytes for conP
+     7904 bytes for fhK
+  5000000 bytes for space
+
+TREE #  1
+
+Branch lengths in tree used as initials.
+
+  7745920 bytes for conP, adjusted
+
+ntime & nrate & np:    99     0   100
+
+np =   100
+lnL0 = -8768.154888
+
+
+Round 1a: Paras (1) (e=5)
+Iterating by ming2
+Initial: fx=  8768.154888
+x=  1.50000
+
+  1 h-m-p  0.0031 6.2761   7.5684 +Y     8767.602653  0 0.0218     7 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0097 Y      8767.600006  0 1.1455    11
+
+    1.653902         0:00
+
+Round 1b: Blengths (99, e=5)
+	lnL0 =      -8767.600006
+	Cycle  1:   -8766.967365
+
+ 0:00
+
+
+Round 2a: Paras (1) (e=2.5)
+Iterating by ming2
+Initial: fx=  8766.967365
+x=  1.65390
+
+  1 h-m-p  0.0040 8.0000   0.6270 +C     8766.962653  0 0.0243    19
+
+    1.669127         0:00
+
+Round 2b: Blengths (99, e=2.5)
+	lnL0 =      -8766.962653
+	Cycle  1:   -8766.908258
+
+ 0:00
+
+
+Round 3a: Paras (1) (e=0.001)
+Iterating by ming2
+Initial: fx=  8766.908258
+x=  1.66913
+
+  1 h-m-p  0.0040 8.0000   0.1479 +C     8766.907989  0 0.0247    27 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 Y      8766.907989  0 1.0015    32
+
+    1.672768         0:00
+
+Round 3b: Blengths (99, e=0.001)
+	lnL0 =      -8766.907989
+	Cycle  1:   -8766.901865
+	Cycle  2:   -8766.901190
+
+ 0:01
+
+
+Round 4a: Paras (1) (e=0.00025)
+Iterating by ming2
+Initial: fx=  8766.901190
+x=  1.67277
+
+  1 h-m-p  0.0040 8.0000   0.1304 +C     8766.900979  0 0.0249    40 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 Y      8766.900979  0 1.0003    45
+
+    1.676008         0:01
+
+Round 4b: Blengths (99, e=0.00025)
+	lnL0 =      -8766.900979
+	Cycle  1:   -8766.900790
+
+ 0:01
+
+
+Round 5a: Paras (1) (e=6.25e-05)
+Iterating by ming2
+Initial: fx=  8766.900790
+x=  1.67601
+
+  1 h-m-p  0.0040 8.0000   0.0247 +C     8766.900783  0 0.0250    53 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 Y      8766.900783  0 0.8500    58
+
+    1.676624         0:01
+
+Round 5b: Blengths (99, e=6.25e-05)
+	lnL0 =      -8766.900783
+	Cycle  1:   -8766.900737
+
+ 0:01
+
+
+Round 6a: Paras (1) (e=1.5625e-05)
+Iterating by ming2
+Initial: fx=  8766.900737
+x=  1.67662
+
+  1 h-m-p  0.0040 8.0000   0.0113 +C     8766.900735  0 0.0250    66 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 +Y     8766.900735  0 6.4000    72
+
+    1.676907         0:01
+
+Round 6b: Blengths (99, e=1.5625e-05)
+	lnL0 =      -8766.900735
+	Cycle  1:   -8766.900724
+
+ 0:01
+
+
+Round 7a: Paras (1) (e=3.90625e-06)
+Iterating by ming2
+Initial: fx=  8766.900724
+x=  1.67691
+
+  1 h-m-p  0.0040 8.0000   0.0056 +C     8766.900724  0 0.0251    80 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 -Y     8766.900724  0 0.1000    86
+
+    1.677049         0:01
+
+Round 7b: Blengths (99, e=3.90625e-06)
+	lnL0 =      -8766.900724
+	Cycle  1:   -8766.900721
+
+ 0:02
+
+
+Round 8a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx=  8766.900721
+x=  1.67705
+
+  1 h-m-p  0.0040 8.0000   0.0027 +C     8766.900721  0 0.0253    94 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 Y      8766.900721  0 0.8462    99
+
+    1.677118         0:02
+
+Round 8b: Blengths (99, e=1e-06)
+	lnL0 =      -8766.900721
+	Cycle  1:   -8766.900720
+
+ 0:02
+
+
+Round 9a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx=  8766.900720
+x=  1.67712
+
+  1 h-m-p  0.0040 8.0000   0.0013 +C     8766.900720  0 0.0255   107 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 N      8766.900720  0 0.2000   112
+
+    1.677152         0:02
+
+Round 9b: Blengths (99, e=1e-06)
+	lnL0 =      -8766.900720
+	Cycle  1:   -8766.900720
+
+ 0:02
+
+6 rounds of small improvement.
+
+Round 10a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx=  8766.900720
+x=  1.67715
+
+  1 h-m-p  0.0040 8.0000   0.0006 +Y     8766.900720  0 0.0263   120 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 N      8766.900720  0 0.8000   125
+
+    1.677169         0:02
+
+Round 10b: Blengths (99, e=1e-06)
+	lnL0 =      -8766.900720
+	Cycle  1:   -8766.900720
+
+ 0:02
+
+7 rounds of small improvement.
+
+Round 11a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx=  8766.900720
+x=  1.67717
+
+  1 h-m-p  0.0040 8.0000   0.0003 +Y     8766.900720  0 0.0273   133 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 ++     8766.900720  m 8.0000   138
+
+    1.677177         0:03
+
+Round 11b: Blengths (99, e=1e-06)
+	lnL0 =      -8766.900720
+	Cycle  1:   -8766.900720
+
+ 0:03
+
+8 rounds of small improvement.
+
+Round 12a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx=  8766.900720
+x=  1.67718
+
+  1 h-m-p  0.0040 8.0000   0.0001 +Y     8766.900720  0 0.0304   146 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 ++     8766.900720  m 8.0000   151
+
+    1.677181         0:03
+
+Round 12b: Blengths (99, e=1e-06)
+	lnL0 =      -8766.900720
+	Cycle  1:   -8766.900720
+
+ 0:03
+
+lnL  = -8766.900720
+Out..
+lnL  = -8766.900720
+154 lfun, 0 eigenQcodon, 76080 P(t)
+
+Reconstructed ancestral states go into file rst.
+Rates are variable among sites, marginal reconstructions only.
+Marginal reconstruction.
+	Node  52: lnL = -8766.900720
+	Node  53: lnL = -8766.900720
+	Node  54: lnL = -8766.900720
+	Node  55: lnL = -8766.900720
+	Node  56: lnL = -8766.900720
+	Node  57: lnL = -8766.900720
+	Node  58: lnL = -8766.900720
+	Node  59: lnL = -8766.900720
+	Node  60: lnL = -8766.900720
+	Node  61: lnL = -8766.900720
+	Node  62: lnL = -8766.900720
+	Node  63: lnL = -8766.900720
+	Node  64: lnL = -8766.900720
+	Node  65: lnL = -8766.900720
+	Node  66: lnL = -8766.900720
+	Node  67: lnL = -8766.900720
+	Node  68: lnL = -8766.900720
+	Node  69: lnL = -8766.900720
+	Node  70: lnL = -8766.900720
+	Node  71: lnL = -8766.900720
+	Node  72: lnL = -8766.900720
+	Node  73: lnL = -8766.900720
+	Node  74: lnL = -8766.900720
+	Node  75: lnL = -8766.900720
+	Node  76: lnL = -8766.900720
+	Node  77: lnL = -8766.900720
+	Node  78: lnL = -8766.900720
+	Node  79: lnL = -8766.900720
+	Node  80: lnL = -8766.900720
+	Node  81: lnL = -8766.900720
+	Node  82: lnL = -8766.900720
+	Node  83: lnL = -8766.900720
+	Node  84: lnL = -8766.900720
+	Node  85: lnL = -8766.900720
+	Node  86: lnL = -8766.900720
+	Node  87: lnL = -8766.900720
+	Node  88: lnL = -8766.900720
+	Node  89: lnL = -8766.900720
+	Node  90: lnL = -8766.900720
+	Node  91: lnL = -8766.900720
+	Node  92: lnL = -8766.900720
+	Node  93: lnL = -8766.900720
+	Node  94: lnL = -8766.900720
+	Node  95: lnL = -8766.900720
+	Node  96: lnL = -8766.900720
+	Node  97: lnL = -8766.900720
+	Node  98: lnL = -8766.900720
+	Node  99: lnL = -8766.900720
+	Node 100: lnL = -8766.900720
+
+Estimated rates for sites go into file rates
+lnL =  -8766.900720
+end of tree file.
+
+Time used:  0:03
