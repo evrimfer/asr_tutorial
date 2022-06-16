@@ -193,7 +193,7 @@ The tree is unrooted. We can root the tree by selecting the branch including Gro
 ![Semantic description of image](rbsc_tree.png "Image Title")
 
 </details>
->Are the rubisco sequences monophyletic based on groups?
+> Are the rubisco sequences monophyletic based on groups?
 
 
 ## **5. Ancestral Sequence Inference**
@@ -221,5 +221,5 @@ _rbsc_aa_aligned.asr.tre_ - tree file with the numbers of ancestral nodes
 ![Semantic description of image](rbsc_asrtree.png "Image Title")
 
 </details>
->What is the node number of the common ancestor of Group-A and Group-B rubisco sequences?\
+> What is the node number of the common ancestor of Group-A and Group-B rubisco sequences?\
 What is the inferred sequence of this ancestral node? 
