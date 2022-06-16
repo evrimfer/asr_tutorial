@@ -221,5 +221,6 @@ _rbsc_aa_aligned.asr.tre_ - tree file with the numbers of ancestral nodes
 ![Semantic description of image](rbsc_asrtree.png "Image Title")
 
 </details>
+
 > What is the node number of the common ancestor of Group-A and Group-B rubisco sequences?\
 What is the inferred sequence of this ancestral node? 
