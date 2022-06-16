@@ -190,7 +190,7 @@ The tree is unrooted. We can root the tree by selecting the branch including Gro
 <details>
 <summary> Tree </summary>
 
-![Semantic description of image](https://github.com/evrimfer/asr_tutorial/blob/39830372a7c6c89713ef944f1fe4aeb38551ef62/alignment.png "Image Title")
+![Semantic description of image](rbsc_tree.png "Image Title")
 
 </details>
 >Are the rubisco sequences monophyletic based on groups?
@@ -218,7 +218,7 @@ _rbsc_aa_aligned.asr.tre_ - tree file with the numbers of ancestral nodes
 <details>
 <summary> ASR Tree </summary>
 
-![Semantic description of image](/Users/fer/Desktop/asr_tutorial/rbsc_asrtree.png "Image Title")
+![Semantic description of image](rbsc_asrtree.png "Image Title")
 
 </details>
 >What is the node number of the common ancestor of Group-A and Group-B rubisco sequences?\
